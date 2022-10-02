@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ug_devs/widgets/stack_widget.dart';
 import 'pages/HomePage.dart';
 import 'widgets/column_widget.dart';
 
@@ -15,7 +16,8 @@ class DevApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       //home: HomePage(),
-      home:MyRowWidget(),
+      //home:MyRowWidget(), //Row Widget
+        home: MyStackWidget(),
     );
   }
 }
